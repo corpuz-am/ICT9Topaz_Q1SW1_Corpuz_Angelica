@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Web Development Resources</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    color: #d1d1c7
+}
+
+h2   {
+    color: #d1d1c7; 
+    font-family: 'Inter';
+    font-size: 30px;
+}
+
+h3   {
+    color: #2C3841; 
+    font-family: 'JetBrains Mono';
+    font-size: 40px;
+ 	margin: 10px; 
+}
+
+header {
+  	background-color: #2C3841;
+ 	padding: 8px;
+  	text-align: center;
+  	font-size: 33px;
+  	font-family: 'JetBrains Mono';
+  	color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #d1d1c7;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #546A7B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #B5AD98;
+    color: #2f3f4b;
+}
+
+.topnav a.active {
+    background-color: #546A7B;
+    color: #B5AD98;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 3px;
+}
+
+iframe {
+    border: 3px solid white;
+}
+
+article {
+  	-webkit-flex: 3;
+  	-ms-flex: 3;
+  	flex: 3;
+  	background-color: #546A7B;
+  	padding: 10px;
+}
+
+footer {
+  	background-color: #d1d1c7;
+  	padding: 10px;
+  	text-align:center;
+  	color: #2C3841;
+	font-size: 20px
+}
+
+a:link {
+  	color: #9cb6ca;
+  	background-color: transparent;
+  	text-decoration: underline;
+    font-family: 'Inter';
+}
+
+a:visited {
+  	color: #2C3841;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+a:hover {
+  	color:#B5AD98 ;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Web Development Resources</h1>
+</header>
+
+<div class="topnav">
+	<a href="introduction.html">Introduction</a>
+	<a href="principles.html">Principles</a>
+	<a href="video.html">Video</a>
+    <a class="active" href="resources.html">Resources</a>
+</div>
+
+<article>
+    <div class="row">
+        <div class="column">  
+        <h2>Important Take-aways</h2>
+        <ol>
+    		<li>Web designs should support and value human rights, dignity and privacy.</li>
+            <li>Ethical thinking should be promoted on online communities concerning web development.</li>
+            <li>Disabled people like people with learning disorders or people who have eyesight problems should also be catered to.</li>
+            <li>Inclusivity should be one of the top priorities of a developer</li>
+	    </ol>
+        <h2>Resources to learn more </h2>
+        <ol>
+    		<li><a href="https://www.techopedia.com/definition/23889/web-development">Explanation about Web Development</a></li>
+            <li><a href="https://www.w3schools.com/whatis/">Click here to learn about Web Development Road Maps</a></li>
+            <li><a href="https://www.codecademy.com/learn/paths/web-development">Web Development Career Path</a></li>
+    		<li><a href="https://digitalagenda.io/insight/ethics-in-web-design/">Ethics on Web Design</a></li>
+            <li><a href="https://www.expertmarket.co.uk/web-design/ethical-responsibilities-web-developers-have">Ethical Responsibilities of a Developer</a></li>
+            <li><a href="https://edri.org/our-work/ethical-web-dev-2/">Guide on Web Development Ethics</a></li>
+            <li><a href="https://www.nixondesign.com/blog/why-ethical-web-development-matters">Importance of Web Development Ethics</a></li>
+	    </ol>
+    </div>
+    <div class="row">
+        <div class="column">    
+            <iframe width="600" height="355" src="https://www.youtube.com/embed/duVoVZnWB2w" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>This TEDTalk is hosted by an interaction designer, thinker and lecturer, Mr. Pawel Pokutycki. Here, Mr. Pawel Pokutycki
+            talks about the relationship between technology and society. His unique perspective shows us the importance of incorporating
+            ethics into design processes to ensure that we remain in control of the technologies that we use on a daily basis.
+            </p>
+    </div>
+ </article>
+
+ <footer>
+    <h3>Thank You For Reading!</h3>
+</body>
+</html>

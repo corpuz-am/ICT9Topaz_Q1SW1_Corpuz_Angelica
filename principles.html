@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Web Development Principles</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+<style>
+* {
+  	box-sizing: border-box;
+}
+
+body {
+  	font-family: 'Inter';
+  	color: #d1d1c7
+}
+
+h2   {
+    background-color:#d1d1c7; 
+    color: #546A7B; 
+    font-family: 'Inter';
+    font-size: 30px;
+}
+
+h3   {
+    color: #2C3841; 
+    font-family: 'JetBrains Mono';
+    font-size: 40px;
+ 	margin: 10px; 
+}
+
+.rule {
+ 	border: 3px solid white; 
+ 	margin: 20px; 
+   	padding: 10px;
+	font-size: 20px
+}
+
+header {
+  	background-color: #2C3841;
+ 	 padding: 8px;
+  	text-align: center;
+  	font-size: 33px;
+  	font-family: 'JetBrains Mono';
+  	color: white;
+}
+
+.topnav {
+  	overflow: hidden;
+  	background-color: #d1d1c7;
+}
+
+.topnav a {
+  	float: left;
+  	display: block;
+  	color: #546A7B;
+  	text-align: center;
+ 	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+.topnav a:hover {
+  	background-color: #B5AD98;
+  	color: #2f3f4b;
+}
+
+.topnav a.active {
+  	background-color: #546A7B;
+  	color: #B5AD98;
+}
+
+article {
+  	-webkit-flex: 3;
+  	-ms-flex: 3;
+  	flex: 3;
+  	background-color: #546A7B;
+  	padding: 10px;
+}
+
+footer {
+  	background-color: #d1d1c7;
+  	padding: 10px;
+  	text-align:left;
+  	color: #2C3841;
+	font-size: 20px
+}
+
+a:link {
+  	color: #2C3841;
+  	background-color: transparent;
+  	text-decoration: underline;
+    font-family: 'Inter';
+}
+
+a:visited {
+  	color: #546A7B;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+a:hover {
+  	color:#B5AD98 ;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Web Development Principles</h1>
+</header>
+
+<div class="topnav">
+	<a href="introduction.html">Introduction</a>
+	<a class="active" href="principles.html">Principles</a>
+	<a href="video.html">Video</a>
+	<a href="resources.html">Resources</a>
+</div>
+
+ <article>
+    <div class="rule">
+	<h2>Web applications should work for everyone</h2>
+	<ul>
+		<li>Accessibility for everyone is prioritized.</li>
+		<li>Inclusive forms are made.</li>
+		<li>Applications are tested by real users.</li>
+	</ul>
+	</div> 
+
+	<div class="rule">
+	<h2>Web applications should work everywhere</h2>
+	<ul>
+		<li>Web applications are made responsively.</li>
+		<li>The execution and capabilities is valued.</li>
+		<li>Develop offline-capable apps.</li>
+		<li>Make sure that the application is flexible.</li>
+	</ul>
+	</div> 
+
+	<div class="rule">
+	<h2>Web applications should respect a user's privacy and security</h2>
+	<ul>
+		<li>Https is made use of everywhere.</li>
+		<li>The preference of a user is valued and respected.</li>
+		<li>Users are given complete information about how their data is being used.</li>
+		<li>Exporting data is authorized for users.</li>
+		<li>A user's data is secured and safe.</li>
+	</ul>
+	</div> 
+	
+	<div class="rule">
+	<h2>Web developers should be considerate of their peers</h2>
+	<ul>
+		<li>Observe if the code is documented.</li>
+		<li>Test your code.</li>
+		<li>Utilize source control and continuous integration.</li>
+		<li>When possible, try to consume and contribute to open source.</li>
+		<li>One should treat their other developers with respect and value.</li>
+		<li>Follow or administer ethical standards for open source projects.</li>
+	</ul>
+	</div> 
+  </article>
+
+<footer>
+<h3>Sources:</h3>
+	<ol>
+    		<li><a href="https://www.ethicalweb.org/">Go To EthicalWeb.org</a></li>
+    		<li><a href="https://edri.org/our-work/ethical-web-dev-2/">Go To EDRi.org</a></li>
+    		<li><a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">Go To W3C.org</a></li>
+	</ol></footer>
+</body>
+</html>

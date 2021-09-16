@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Development Video</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  color: #d1d1c7
+}
+
+h2   {
+  background-color:#d1d1c7; 
+  color: #546A7B; 
+  font-family: 'Inter';
+  font-size: 30px;
+}
+
+h3   {
+  color: #2C3841; 
+  font-family: 'JetBrains Mono';
+  font-size: 40px;
+ 	margin: 10px; 
+}
+
+header {
+  background-color: #2C3841;
+ 	padding: 8px;
+  text-align: center;
+  font-size: 33px;
+  font-family: 'JetBrains Mono';
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d1d1c7;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #546A7B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #B5AD98;
+  color: #546A7B;
+}
+
+.topnav a.active {
+  background-color: #546A7B;
+  color: #B5AD98;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid white; 
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #546A7B;
+  padding: 10px;
+}
+
+footer {
+  background-color: #d1d1c7;
+  padding: 10px;
+  text-align:left;
+  color: #2C3841;
+	font-size: 20px
+}
+
+a:link {
+  color: #2C3841;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: 'Inter';
+}
+
+a:visited {
+  color: #546A7B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#B5AD98 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  section {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Extra</h1>
+</header>
+
+<div class="topnav">
+	<a href="introduction.html">Introduction</a>
+	<a href="principles.html">Principles</a>
+	<a class="active" href="video.html">Video</a>
+  <a href="resources.html">Resources</a>
+</div>
+
+<article>
+   <h2>A Video on Web Development Ethics</h2>
+   <div class="videoWrapper">
+   <iframe src="https://www.youtube.com/embed/HPMqyfOT-l8" title="YouTube video player" frameborder="0" 
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div> 
+ </article>
+
+<footer>
+<h3>Sources:</h3>
+	<ol>
+    		<li><a href="https://youtu.be/HPMqyfOT-l8">Go To The Treehouse Youtube Channel</a></li>
+	</ol></footer>
+</body>
+</html>
